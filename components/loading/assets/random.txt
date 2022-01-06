@@ -1,0 +1,8 @@
+    <View style={styles.container}>
+      <View style={{alignSelf: "center", alignItems: "center", marginTop: "50%"}}>
+        <Text style={{fontSize: 40}}>Loading...</Text>
+        <Image source={require('./assets/blitzcrank.png')} />
+      </View>
+    </View>
+
+<LottieView source={require("./assets/teemoLoading.json")} />
